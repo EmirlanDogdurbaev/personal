@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+span,
+ul,
+li,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+.Nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: 0 auto;
+  .ul {
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .left {
+    display: flex;
+
+    a {
+      color: gold;
+    }
+    a:hover {
+      color: red;
+    }
+
+    a:after{
+      color: red;
+    }
+  }
+}
+
+@media (max-width: 965px) {
+  .Nav {
+    display: none;
+  }
+}
