@@ -6,8 +6,6 @@ import gmail from "../../../image/gmail.svg";
 import link from "../../../image/linkedin.svg";
 import telegram from "../../../image/telegram.svg";
 import what from "../../../image/what.svg";
-import { Link } from "react-router-dom";
-
 const Home = () => {
   return (
     <main className={classes.home}>
