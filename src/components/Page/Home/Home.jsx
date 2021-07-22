@@ -30,7 +30,7 @@ const Home = () => {
           <a href="https://www.instagram.com/" rel="noreferrer">
             <img src={inst} alt="loading" />
           </a>
-          <a href="" rel="noreferrer">
+          <a href="https://github.com/EmirlanDogdurbaev" rel="noreferrer">
             <img src={git} alt="loading" />
           </a>
           <a href="https://mail.google.com/mail/u/0/#inbox" rel="noreferrer">
